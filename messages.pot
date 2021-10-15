@@ -1,17 +1,12 @@
-# Translations template for PROJECT.
-# Copyright (C) 2021 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# Translations template for FreeFlarum.
+# Copyright (C) 2021 FreeFlarum
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-15 08:27+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Report-Msgid-Bugs-To: info@freeflarum.com\n"
+"POT-Creation-Date: 2021-10-15 15:02+0200\n"
+"PO-Revision-Date: 2021-10-15 15:02+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -72,7 +67,7 @@ msgstr ""
 
 #: ../../freeflarum/database/models.py:325
 #: ../../freeflarum/functions/forum_manager.py:226
-#: ../../freeflarum/webapp/views/api.py:165
+#: ../../freeflarum/webapp/views/api.py:171
 #, python-format
 msgid "Hello there, friendly administrator of %(forum_name)s"
 msgstr ""
@@ -1367,11 +1362,29 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:83
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:81
+msgid "Bump your forum"
+msgstr ""
+
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:82
+msgid ""
+"Bumping allows you to place your forum back to the top of the forum "
+"directory. You may bump your forum every 12 hours."
+msgstr ""
+
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:86
+msgid "You may bump your forum in:"
+msgstr ""
+
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:94
+msgid "Bump forum"
+msgstr ""
+
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:106
 msgid "Fixup your forum"
 msgstr ""
 
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:84
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:107
 msgid ""
 "This is useful when we just installed a few new extensions, and your "
 "forum refuses to load. Due to the way FreeFlarum's file structure is set "
@@ -1380,29 +1393,11 @@ msgid ""
 "database and synchronize your forum. Rate-limited."
 msgstr ""
 
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:86
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:263
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:267
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:109
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:264
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:268
 #, python-format
 msgid "Fixup the \"%(forum_name)s\" forum"
-msgstr ""
-
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:94
-msgid "Bump your forum"
-msgstr ""
-
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:95
-msgid ""
-"Bumping allows you to place your forum back to the top of the forum "
-"directory. You may bump your forum every 12 hours."
-msgstr ""
-
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:99
-msgid "You may bump your forum in:"
-msgstr ""
-
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:107
-msgid "Bump forum"
 msgstr ""
 
 #: ../../freeflarum/webapp/templates/settings/forum_settings.html:120
@@ -1568,61 +1563,61 @@ msgstr ""
 msgid "Everything seems to be okay."
 msgstr ""
 
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:258
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:259
 msgid "Fixing your forum up..."
 msgstr ""
 
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:262
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:263
 msgid "Your forum was successfuly fixed up!"
 msgstr ""
 
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:266
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:300
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:334
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:267
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:302
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:337
 msgid "Oops! Something went wrong."
 msgstr ""
 
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:279
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:280
 #, python-format
 msgid "Destroy the %(forum_name)s forum and all users, posts etc...?"
 msgstr ""
 
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:279
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:280
 msgid "This action is irreversible!"
 msgstr ""
 
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:292
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:294
 msgid "Deleting your account..."
 msgstr ""
 
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:296
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:298
 msgid "Removed!"
 msgstr ""
 
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:301
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:303
 #, python-format
 msgid "DELETE \"%(forum_name)s\"\" FORUM & ACCOUNT"
 msgstr ""
 
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:313
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:315
 #, python-format
 msgid "Are you sure that you want to reset the settings of %(forum_name)s?"
 msgstr ""
 
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:313
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:315
 msgid "Your database won't be erased."
 msgstr ""
 
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:326
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:329
 msgid "Resetting your forum settings"
 msgstr ""
 
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:330
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:333
 msgid "Your forum settings have been reset!"
 msgstr ""
 
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:331
-#: ../../freeflarum/webapp/templates/settings/forum_settings.html:335
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:334
+#: ../../freeflarum/webapp/templates/settings/forum_settings.html:338
 #, python-format
 msgid "Reset settings of the %(forum_name)s forum"
 msgstr ""
@@ -1738,23 +1733,27 @@ msgstr ""
 msgid "There are no logs to be shown."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:50
+#: ../../freeflarum/webapp/views/api.py:51
 msgid "You must agree with the Terms & Conditions."
 msgstr ""
 
 #: ../../freeflarum/webapp/views/api.py:60
+msgid "This forum name is not allowed, please pick another one."
+msgstr ""
+
+#: ../../freeflarum/webapp/views/api.py:66
 #, python-format
 msgid "We are unable to send E-mails to %(domain)s because of an external ban."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:100
+#: ../../freeflarum/webapp/views/api.py:106
 #, python-format
 msgid ""
 "Forum \"%(tag)s\" already exists, or is archived. Please, choose a "
 "different name."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:111
+#: ../../freeflarum/webapp/views/api.py:117
 #, python-format
 msgid ""
 "We were unable to verify the E-mail deliverability for this address, so "
@@ -1763,182 +1762,187 @@ msgid ""
 "info@freeflarum.com.<br/><b>Details:</b> %(error_message)s"
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:118
+#: ../../freeflarum/webapp/views/api.py:124
 msgid ""
 "Something went wrong while we were creating your forum, please try again "
 "later."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:145
+#: ../../freeflarum/webapp/views/api.py:151
 msgid ""
 "That E-mail does not belong to the owner of that forum, or the forum does"
 " not exist."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:150
+#: ../../freeflarum/webapp/views/api.py:156
 msgid ""
 "Your forum must be online for this to work. Please, reactivate your forum"
 " first or contact us at info@freeflarum.com."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:162
+#: ../../freeflarum/webapp/views/api.py:168
 msgid "Reset your password"
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:163
+#: ../../freeflarum/webapp/views/api.py:169
 #, python-format
 msgid "Reset your password at forum %(forum_name)s"
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:166
+#: ../../freeflarum/webapp/views/api.py:172
 msgid "You have requested a password reset for your forum from FreeFlarum."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:167
+#: ../../freeflarum/webapp/views/api.py:173
 msgid "If this was you, you can click the button below to change your password."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:168
+#: ../../freeflarum/webapp/views/api.py:174
 msgid ""
 "Remember that the link is valid only for 24 hours. When that time passes,"
 " you must generate a new one."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:171
+#: ../../freeflarum/webapp/views/api.py:177
 msgid "Reset my password now"
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:175
+#: ../../freeflarum/webapp/views/api.py:181
 msgid "Reset your FreeFlarum forum password"
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:177
+#: ../../freeflarum/webapp/views/api.py:183
 #, python-format
 msgid ""
 "Password reset E-mail was sucessfuly sent to address %(address)s (forum "
 "\"%(forum_name)s\")"
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:212
+#: ../../freeflarum/webapp/views/api.py:218
 msgid "Keyword list must have between 3 and 100 characters"
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:221
+#: ../../freeflarum/webapp/views/api.py:227
 msgid "Invalid page number."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:236
-#: ../../freeflarum/webapp/views/api.py:245
+#: ../../freeflarum/webapp/views/api.py:242
 #: ../../freeflarum/webapp/views/api.py:251
+#: ../../freeflarum/webapp/views/api.py:257
 msgid "Invalid forum name."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:267
+#: ../../freeflarum/webapp/views/api.py:273
 msgid "Icon must be less than 20 characters."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:282
+#: ../../freeflarum/webapp/views/api.py:288
 msgid "That is not a valid category."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:289
+#: ../../freeflarum/webapp/views/api.py:295
 msgid "Short description must be between 5 and 255 characters."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:296
+#: ../../freeflarum/webapp/views/api.py:302
 msgid "Long description must be between 20 and 5000 characters."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:305
+#: ../../freeflarum/webapp/views/api.py:311
 msgid ""
 "Descriptions must not contain one of the following characters: <pre "
 "class=\"ml-2 text-gray-500\">\\, <, >, [, ], {, }</pre>"
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:330
+#: ../../freeflarum/webapp/views/api.py:336
 msgid "Keyword list must be between 0 and 100 characters long (including commas)."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:344
+#: ../../freeflarum/webapp/views/api.py:350
 msgid "Successfuly updated forum information."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:349
+#: ../../freeflarum/webapp/views/api.py:355
 msgid ""
 "Something went wrong while saving your forum data. Please, try again "
 "later."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:358
+#: ../../freeflarum/webapp/views/api.py:364
 msgid "Invalid path"
-msgstr ""
-
-#: ../../freeflarum/webapp/views/api.py:385
-#, python-format
-msgid "Name %(tag)s already exists."
-msgstr ""
-
-#: ../../freeflarum/webapp/views/api.py:388
-#, python-format
-msgid "Name %(tag)s is not a safe tag. Forum names must be alphanumerical only."
 msgstr ""
 
 #: ../../freeflarum/webapp/views/api.py:391
 #, python-format
+msgid "Name %(tag)s is not allowed."
+msgstr ""
+
+#: ../../freeflarum/webapp/views/api.py:394
+#, python-format
+msgid "Name %(tag)s already exists."
+msgstr ""
+
+#: ../../freeflarum/webapp/views/api.py:397
+#, python-format
+msgid "Name %(tag)s is not a safe tag. Forum names must be alphanumerical only."
+msgstr ""
+
+#: ../../freeflarum/webapp/views/api.py:400
+#, python-format
 msgid "Name %(tag)s must be between 3 and 50 characters."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:436
+#: ../../freeflarum/webapp/views/api.py:445
 msgid "Invalid log file specified."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:469
+#: ../../freeflarum/webapp/views/api.py:478
 msgid "You must donate 20 € or more to be able to use this feature."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:487
+#: ../../freeflarum/webapp/views/api.py:496
 msgid "The database dump was successfuly imported!"
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:493
+#: ../../freeflarum/webapp/views/api.py:502
 msgid ""
 "An error occurred while importing the database dump. Are you sure that "
 "it's a valid dump file?"
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:499
+#: ../../freeflarum/webapp/views/api.py:508
 msgid "The database dump is invalid."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:519
+#: ../../freeflarum/webapp/views/api.py:528
 msgid "Invalid characters."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:541
+#: ../../freeflarum/webapp/views/api.py:550
 #, python-format
 msgid ""
 "Hooray! You can now use your new URL: <a href=\"%(new_url)s\" "
 "target=\"_blank\">%(new_url)s</a>"
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:553
+#: ../../freeflarum/webapp/views/api.py:562
 #, python-format
 msgid "You can bump your forum again in %(time_until_next_bump)s"
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:562
+#: ../../freeflarum/webapp/views/api.py:571
 msgid "Your forum was successfuly bumped"
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:673
+#: ../../freeflarum/webapp/views/api.py:682
 msgid "This forum cannot be reactivated."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:682
+#: ../../freeflarum/webapp/views/api.py:691
 msgid "Something went wrong during the reactivation."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:686
+#: ../../freeflarum/webapp/views/api.py:695
 #, python-format
 msgid ""
 "Your \"%(forum_name)s\" forum was successfuly reactivated! Check it out "
@@ -1946,12 +1950,12 @@ msgid ""
 "dark:hover:text-yellow-300\" href=\"%(forum_url)s\">%(forum_url)s</a>"
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:691
+#: ../../freeflarum/webapp/views/api.py:700
 #: ../../freeflarum/webapp/views/settings.py:75
 msgid "Incorrect forum name or password."
 msgstr ""
 
-#: ../../freeflarum/webapp/views/api.py:696
+#: ../../freeflarum/webapp/views/api.py:705
 #: ../../freeflarum/webapp/views/settings.py:80
 msgid "Something went wrong, please try again later."
 msgstr ""
