@@ -16,43 +16,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../freeflarum/frontend/templates/home/partials/registration_form.html:5
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:5
 msgid "Progress:"
 msgstr ""
 
-#: ../../freeflarum/frontend/templates/home/partials/registration_form.html:18
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:18
 msgid "Create your Flarum"
 msgstr ""
 
-#: ../../freeflarum/frontend/templates/home/partials/registration_form.html:19
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:19
 msgid ""
 "Creating a Flarum forum may be difficult. Not anymore! Create your forum "
 "under 1 minute with our setup wizard."
 msgstr ""
 
-#: ../../freeflarum/frontend/templates/home/partials/registration_form.html:27
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:27
 msgid "What kind of forum do you want to start?"
 msgstr ""
 
-#: ../../freeflarum/frontend/templates/home/partials/registration_form.html:28
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:28
 msgid "Please select one of the following templates:"
 msgstr ""
 
-#: ../../freeflarum/frontend/templates/home/partials/registration_form.html:52
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:52
 msgid "Please, tell us your forum name"
 msgstr ""
 
-#: ../../freeflarum/frontend/templates/home/partials/registration_form.html:53
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:53
 msgid ""
 "This will be used as your forum's ID - therefore, it cannot be changed "
 "later. Choose it wisely!"
 msgstr ""
 
-#: ../../freeflarum/frontend/templates/home/partials/registration_form.html:64
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:64
 msgid "Previous step"
 msgstr ""
 
-#: ../../freeflarum/frontend/templates/home/partials/registration_form.html:65
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:65
 msgid "Next step"
 msgstr ""
 
