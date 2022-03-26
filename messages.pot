@@ -1,20 +1,132 @@
-# Translations template for FreeFlarum.
-# Copyright (C) 2022 FreeFlarum
-# This file is distributed under the same license as the FreeFlarum project.
-# FreeFlarum <info@freeflarum.com>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: FreeFlarum\n"
-"Report-Msgid-Bugs-To: info@freeflarum.com\n"
-"POT-Creation-Date: 2022-02-19 09:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FreeFlarum <info@freeflarum.com>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+
+#: ../../freeflarum/web/api/routers/__init__.py:39
+msgid "Test string"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:3
+msgid "Sign Up"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:4
+msgid "Extensions"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:5
+msgid "Forum Directory"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:6
+msgid "Docs"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:7
+msgid "Settings"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:8
+msgid "Support"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:60
+msgid "FreeFlarum.com"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:86
+msgid "Flarum"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:87
+#: ../../freeflarum/web/templates/base.html:102
+msgid "Flarum.org"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:88
+#: ../../freeflarum/web/templates/base.html:105
+msgid "Discuss"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:89
+msgid "Extiverse"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:91
+msgid "FreeFlarum"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:92
+#: ../../freeflarum/web/templates/base.html:118
+msgid "Discuss Thread"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:108
+msgid "Extiverse.com"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:121
+msgid "GitHub"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:124
+msgid "E-Mail"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:130
+msgid "About"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:134
+msgid "About Us"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:137
+msgid "Status"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:140
+msgid "FaQ"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:146
+msgid "Legal"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:150
+msgid "Terms & Conditions"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:153
+msgid "Privacy Policy"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:161
+msgid ""
+"FreeFlarum is a community provided service and is not affiliated with "
+"Flarum.org."
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:162
+msgid "Made with"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:162
+msgid "in Europe."
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:165
+msgid "Language:"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:167
+msgid "English"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:168
+msgid "Slovak"
+msgstr ""
 
 #: ../../freeflarum/web/templates/home/partials/registration_form.html:5
 msgid "Progress:"
