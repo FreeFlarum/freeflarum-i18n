@@ -1,186 +1,592 @@
 # Slovak translations for FreeFlarum.
 # Copyright (C) 2022 FreeFlarum
 # This file is distributed under the same license as the FreeFlarum project.
-# FreeFlarum <info@freeflarum.com>, 2022.
+# SKevo <info@freeflarum.com>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version:  FreeFlarum\n"
 "Report-Msgid-Bugs-To: info@freeflarum.com\n"
-"POT-Creation-Date: 2022-03-26 15:46+0000\n"
-"PO-Revision-Date: 2022-03-26 13:31+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2022-08-24 09:00+0000\n"
+"PO-Revision-Date: 2022-08-24 09:09+0000\n"
+"Last-Translator: FULL NAME <info@freeflarum.com>\n"
 "Language: sk\n"
 "Language-Team: sk <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../freeflarum/web/api/routers/__init__.py:39
-#, fuzzy
-msgid "Test string"
-msgstr "Testovacie vlákno"
-
-#: ../../freeflarum/web/templates/base.html:3
+#: ../../freeflarum/web/__init__.py:45
 msgid "Sign Up"
-msgstr "Zaregistrovať sa"
+msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:4
+#: ../../freeflarum/web/__init__.py:46
 msgid "Extensions"
-msgstr "Doplnky"
+msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:5
-msgid "Forum Directory"
-msgstr "Zoznam fór"
-
-#: ../../freeflarum/web/templates/base.html:6
+#: ../../freeflarum/web/__init__.py:47
 msgid "Docs"
-msgstr "Dokumentácia"
+msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:7
+#: ../../freeflarum/web/__init__.py:48
 msgid "Settings"
-msgstr "Nastavenia"
+msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:8
+#: ../../freeflarum/web/__init__.py:49
 msgid "Support"
-msgstr "Podpora"
+msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:60
+#: ../../freeflarum/web/__init__.py:52
+msgid "Overview"
+msgstr ""
+
+#: ../../freeflarum/web/__init__.py:53
+msgid "Forum Settings"
+msgstr ""
+
+#: ../../freeflarum/web/__init__.py:54
+msgid "Account Settings"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:30
 msgid "FreeFlarum.com"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:86
+#: ../../freeflarum/web/templates/base.html:31
+msgid "FreeFlarum Logo"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:35
+msgid "Open Mobile Menu"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:54
+#: ../../freeflarum/web/templates/home/homepage.html:27
 msgid "Flarum"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:87
-#: ../../freeflarum/web/templates/base.html:102
+#: ../../freeflarum/web/templates/base.html:55
 msgid "Flarum.org"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:88
-#: ../../freeflarum/web/templates/base.html:105
+#: ../../freeflarum/web/templates/base.html:56
 msgid "Discuss"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:89
+#: ../../freeflarum/web/templates/base.html:57
 msgid "Extiverse"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:91
+#: ../../freeflarum/web/templates/base.html:59
 msgid "FreeFlarum"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:92
-#: ../../freeflarum/web/templates/base.html:118
+#: ../../freeflarum/web/templates/base.html:60
 msgid "Discuss Thread"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:108
-msgid "Extiverse.com"
-msgstr ""
-
-#: ../../freeflarum/web/templates/base.html:121
+#: ../../freeflarum/web/templates/base.html:61
 msgid "GitHub"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:124
-msgid "E-Mail"
+#: ../../freeflarum/web/templates/base.html:62
+#: ../../freeflarum/web/templates/donate.html:6
+msgid "Donate"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:130
+#: ../../freeflarum/web/templates/base.html:64
 msgid "About"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:134
-msgid "About Us"
+#: ../../freeflarum/web/templates/base.html:65
+msgid "About FreeFlarum"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:137
+#: ../../freeflarum/web/templates/base.html:66
 msgid "Status"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:140
+#: ../../freeflarum/web/templates/base.html:67
 msgid "FaQ"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:146
+#: ../../freeflarum/web/templates/base.html:69
 msgid "Legal"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:150
-msgid "Terms & Conditions"
-msgstr ""
-
-#: ../../freeflarum/web/templates/base.html:153
+#: ../../freeflarum/web/templates/base.html:70
 msgid "Privacy Policy"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:161
+#: ../../freeflarum/web/templates/base.html:71
+msgid "Terms of Service"
+msgstr ""
+
+#: ../../freeflarum/web/templates/base.html:95
 msgid ""
 "FreeFlarum is a community provided service and is not affiliated with "
 "Flarum.org."
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:162
+#: ../../freeflarum/web/templates/base.html:96
 msgid "Made with"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:162
+#: ../../freeflarum/web/templates/base.html:96
 msgid "in Europe."
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:165
+#: ../../freeflarum/web/templates/base.html:99
 msgid "Language:"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:167
-msgid "English"
+#: ../../freeflarum/web/templates/donate.html:7
+msgid "...and support FreeFlarum!"
 msgstr ""
 
-#: ../../freeflarum/web/templates/base.html:168
-msgid "Slovak"
+#: ../../freeflarum/web/templates/donate.html:12
+msgid "Why donate?"
 msgstr ""
 
-#: ../../freeflarum/web/templates/home/partials/registration_form.html:5
-msgid "Progress:"
-msgstr ""
-
-#: ../../freeflarum/web/templates/home/partials/registration_form.html:18
-msgid "Create your Flarum"
-msgstr ""
-
-#: ../../freeflarum/web/templates/home/partials/registration_form.html:19
+#: ../../freeflarum/web/templates/donate.html:12
 msgid ""
-"Creating a Flarum forum may be difficult. Not anymore! Create your forum "
-"under 1 minute with our setup wizard."
+"FreeFlarum is a non-profit community provided service that lives from "
+"donations. Donations not only help me cover the expenses that come from "
+"running FreeFlarum, but they also motivate me to keep going forward and "
+"improve the service.<br/><br/>Without you, awesome donors, FreeFlarum "
+"would not exist anymore!"
 msgstr ""
 
-#: ../../freeflarum/web/templates/home/partials/registration_form.html:27
-msgid "What kind of forum do you want to start?"
+#: ../../freeflarum/web/templates/donate.html:13
+msgid "What is the money used for?"
 msgstr ""
 
-#: ../../freeflarum/web/templates/home/partials/registration_form.html:28
-msgid "Please select one of the following templates:"
+#: ../../freeflarum/web/templates/donate.html:13
+msgid ""
+"The donations are used to pay for fees that are necessary for FreeFlarum "
+"to stay online. This mainly includes payments for FreeFlarum server and "
+"domains."
+msgstr ""
+
+#: ../../freeflarum/web/templates/donate.html:14
+msgid "What do I get for donating?"
+msgstr ""
+
+#: ../../freeflarum/web/templates/donate.html:14
+msgid ""
+"To encourage users to donate, FreeFlarum will reward you with some perks "
+"in return, as a token of gratitude (see below for a list of perks)."
+msgstr ""
+
+#: ../../freeflarum/web/templates/donate.html:28
+msgid "Donation Perks"
+msgstr ""
+
+#: ../../freeflarum/web/templates/donate.html:29
+msgid "What do you get for making a one-time donation?"
+msgstr ""
+
+#: ../../freeflarum/web/templates/donate.html:42
+#, python-format
+msgid "Donate %(amount)s&nbsp;€ and:"
+msgstr ""
+
+#: ../../freeflarum/web/templates/extensions.html:7
+#: ../../freeflarum/web/templates/home/homepage.html:76
+msgid "Request an extension"
+msgstr ""
+
+#: ../../freeflarum/web/templates/extensions.html:7
+#, python-format
+msgid ""
+"There are currently <b class=\"text-gray-700 dark:text-gray-300\" "
+"x-text=\"Object.values(available_extensions).flat().length || "
+"'...'\">...</b> extensions available at FreeFlarum. Missing something? "
+"%(request_extension_link)s at our GitHub."
+msgstr ""
+
+#: ../../freeflarum/web/templates/extensions.html:10
+msgid "Loading extensions..."
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/login.html:7
+msgid "Forum ID"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/login.html:10
+msgid "Your forum admin account password"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/login.html:16
+msgid "Remember Me"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/login.html:18
+msgid "Forgot Password?"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/login.html:22
+msgid "Login"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/login.html:49
+msgid "Successfully logged in! Redirecting..."
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:9
+msgid "Export Your Data"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:10
+msgid "You can download your forum data, or export certain tables to CSV here."
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:14
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:68
+msgid "Logout"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:15
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:69
+msgid "REMOVE ACCOUNT"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:21
+msgid "Access Tokens"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:22
+msgid "What are access tokens?"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:22
+#, python-format
+msgid "View & revoke your access tokens. %(access_tokens_link)s"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:30
+msgid "Revoke"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:32
+msgid "Access Token"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:33
+msgid "IP Address"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:34
+msgid "Elevated Permissions?"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:35
+msgid "Created at"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:36
+msgid "Expires at"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:37
+msgid "User Agent"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:63
+msgid "Other"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:64
+msgid "Logout or permanently remove your account."
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:76
+msgid ""
+"Are you sure that you want to delete "
+"\"${Alpine.store(\"currentForum\").data['tag']}\"?\\n\\nIt will be "
+"PERMANENTLY removed. This action is IRREVERSIBLE. It is STRONGLY "
+"recommended to hit \"Cancel\" and download your data right now if you "
+"haven't already, because many E-mail providers (such as Gmail) block "
+"\".gz\" attachments (which would FreeFlarum otherwise use to send you an "
+"E-mail with your data).\\n\\nPress the \"Enter\" key or hit \"OK\" to "
+"continue, \"Escape\" or \"Cancel\" to cancel account deletion."
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:78
+msgid ""
+"Your account is now being deleted. We will send you an E-mail when that "
+"is done."
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/account_settings.html:81
+msgid "Cancelled account deletion."
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/overview.html:7
+msgid "Forum Overview"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/overview.html:8
+msgid ""
+"Your forum at a glance - view your forum information, donation status and"
+" how much FoF Upload storage space is there left for your forum."
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/overview.html:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/overview.html:17
+msgid "Forum Tag:"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/overview.html:21
+msgid "Created by (E-mail):"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/overview.html:25
+msgid "Donated:"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/overview.html:27
+msgid "You haven't donated (yet?)"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/overview.html:28
+msgid "learn how to donate"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/overview.html:36
+msgid "Limits"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/overview.html:39
+msgid "FoF Uploads Size:"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/overview.html:45
+msgid "Unlimited"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/overview.html:46
+msgid "(you are an OG donor)"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/overview.html:63
+msgid "None"
+msgstr ""
+
+#: ../../freeflarum/web/templates/account/settings/overview.html:64
+msgid "(only donors of 7 € or more can use local file upload)"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:24
+msgid "Create a forum in under 5 minutes"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:26
+msgid "Creating a Flarum forum was never easier!"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:27
+#, python-format
+msgid ""
+"Start building your community today with %(flarum_org_link)s - one of the"
+" fastest and most modern open source forum frameworks available."
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:29
+msgid "Create My Flarum Forum"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:42
+msgid "Fast"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:42
+msgid ""
+"You won't find better performance. Flarum is lightweight with blazing-"
+"fast response times."
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:43
+msgid "Free (as in beer)"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:43
+msgid ""
+"This service is paid for by <a class=\"text-yellow-500 hover:text-"
+"yellow-400\" href=\"./donate\">donations</a>. Our mission is to support "
+"new communities."
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:44
+msgid "Free (as in speech)"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:44
+msgid ""
+"Your community and your data is yours and you can always export it. We "
+"don't like <a class=\"text-yellow-500 hover:text-yellow-400\" "
+"href=\"https://www.darkpatterns.org\">dark marketing patterns</a> so we "
+"don't have them."
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:45
+msgid "Secure"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:45
+msgid ""
+"<a class=\"text-yellow-500 hover:text-yellow-400\" "
+"href=\"https://www.ssllabs.com/ssltest/analyze.html?d=www.freeflarum.com\">Solid"
+" SSL protection</a> is standard with every forum. No eavesdropping, plus "
+"Google will like you for it."
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:46
+msgid "Safe"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:46
+msgid ""
+"Daily backups are made to an offsite location. No headaches about failing"
+" hardware, we got you covered."
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:47
+msgid "Simple"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:47
+#, python-format
+msgid ""
+"Getting tired of patches and upgrades? We do that for you.<br/>Plus: lots"
+" of <a class=\"text-yellow-500 hover:text-yellow-400\" "
+"href=\"./extensions\">extensions</a> are included out of the box. Missing"
+" something? <a class=\"text-yellow-500 hover:text-yellow-400\" "
+"href=\"%(github_link)s\">Get in touch</a>."
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:54
+msgid "Features"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:55
+msgid ""
+"Get to know Flarum better, the next-generation forum software that makes "
+"online discussion fun."
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:76
+msgid "Missing an extension?"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:76
+msgid "Request it at our GitHub"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:77
+msgid "Need an advice?"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:77
+msgid "View our thread at Flarum's Discuss"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/homepage.html:77
+msgid "Go to discuss.flarum.org"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:7
+msgid "Registration Successful"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:10
+#, python-format
+msgid ""
+"Your registration was submitted! Soon, an E-mail should arrive with a "
+"link to set the password for your admin account. If you have any "
+"questions or run into any issues, please <a href=\"%(support_link)s\" "
+"class=\"text-yellow-500 hover:font-bold\">contact us</a>."
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:14
+msgid "Login to settings"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:25
+msgid "Your forum"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:25
+msgid "Domain"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:25
+msgid "Template"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:25
+msgid "Are you a robot?"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:46
+msgid "Forum Name:"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:47
+msgid "Enter your forum tag..."
 msgstr ""
 
 #: ../../freeflarum/web/templates/home/partials/registration_form.html:52
-msgid "Please, tell us your forum name"
+msgid "Email:"
 msgstr ""
 
 #: ../../freeflarum/web/templates/home/partials/registration_form.html:53
-msgid ""
-"This will be used as your forum's ID - therefore, it cannot be changed "
-"later. Choose it wisely!"
+msgid "Enter your email address..."
 msgstr ""
 
-#: ../../freeflarum/web/templates/home/partials/registration_form.html:64
-msgid "Previous step"
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:59
+msgid "Choose a domain"
 msgstr ""
 
-#: ../../freeflarum/web/templates/home/partials/registration_form.html:65
-msgid "Next step"
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:79
+msgid "Choose a template"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:101
+msgid ".- .-. . / -.-- --- ..- / .- / .-. --- -... --- - ..--.."
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:105
+msgid "Terms & Conditions"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:105
+#, python-format
+msgid "By proceeding, you agree to our %(terms_link)s."
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:114
+msgid "Cancel"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:115
+msgid "Previous"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:120
+msgid "Next"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:124
+msgid "Complete"
+msgstr ""
+
+#: ../../freeflarum/web/templates/home/partials/registration_form.html:166
+msgid "Error:"
 msgstr ""
 
